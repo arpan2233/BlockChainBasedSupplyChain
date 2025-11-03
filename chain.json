@@ -1,0 +1,88 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1761933292.744988,
+    "data": {
+      "type": "GENESIS",
+      "note": "genesis block"
+    },
+    "previous_hash": "0",
+    "nonce": 0,
+    "hash": "855f934969497b8efa90fea08b24499cb42f338e91961f1e3e2133a68490ce6e"
+  },
+  {
+    "index": 1,
+    "timestamp": 1762095708.2551265,
+    "data": {
+      "product_id": "BATCH123",
+      "stage": "Created",
+      "location": "New Delhi",
+      "transit_time_hours": 0,
+      "skipped_stage": 0,
+      "is_duplicate": 0
+    },
+    "previous_hash": "855f934969497b8efa90fea08b24499cb42f338e91961f1e3e2133a68490ce6e",
+    "nonce": 113,
+    "hash": "005384e2cc64562f7436a776411323ca0c191db006768f84c9e18eab096f5a76"
+  },
+  {
+    "index": 2,
+    "timestamp": 1762095721.1015012,
+    "data": {
+      "product_id": "BATCH123",
+      "stage": "Manufactured",
+      "location": "New Delhi, Delhi",
+      "transit_time_hours": 0.0,
+      "skipped_stage": 0,
+      "is_duplicate": 0
+    },
+    "previous_hash": "005384e2cc64562f7436a776411323ca0c191db006768f84c9e18eab096f5a76",
+    "nonce": 676,
+    "hash": "0018e2f1c53aceeb252e1913a030eeb5bcab0275a118e5c6c3ff988bb00f11b0"
+  },
+  {
+    "index": 3,
+    "timestamp": 1762095758.955509,
+    "data": {
+      "product_id": "BATCH123",
+      "stage": "Shipping",
+      "location": "Mumbai",
+      "transit_time_hours": 15.0,
+      "skipped_stage": 0,
+      "is_duplicate": 0
+    },
+    "previous_hash": "0018e2f1c53aceeb252e1913a030eeb5bcab0275a118e5c6c3ff988bb00f11b0",
+    "nonce": 6,
+    "hash": "00f08ef725a9c92d7a3145ee98f526666f344c7f43c709db163cf6c6f5c14cae"
+  },
+  {
+    "index": 4,
+    "timestamp": 1762095784.7093341,
+    "data": {
+      "product_id": "BATCH123",
+      "stage": "Delivered",
+      "location": "Pune",
+      "transit_time_hours": 10.0,
+      "skipped_stage": 1,
+      "is_duplicate": 0
+    },
+    "previous_hash": "00f08ef725a9c92d7a3145ee98f526666f344c7f43c709db163cf6c6f5c14cae",
+    "nonce": 64,
+    "hash": "001682b53ae3f7f05e089149236e8f3e0c67a1730149a04eaa6e2a5ed47f86cd"
+  },
+  {
+    "index": 5,
+    "timestamp": 1762095858.2293987,
+    "data": {
+      "product_id": "BATCH123",
+      "stage": "Delivered",
+      "location": "UK",
+      "transit_time_hours": 0.0,
+      "skipped_stage": 0,
+      "is_duplicate": 0
+    },
+    "previous_hash": "001682b53ae3f7f05e089149236e8f3e0c67a1730149a04eaa6e2a5ed47f86cd",
+    "nonce": 372,
+    "hash": "00a0994f39c19006b5a93bc4a34c05736fd2938593a712e382bf08e9e7294c25"
+  }
+]
