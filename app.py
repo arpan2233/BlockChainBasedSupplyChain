@@ -74,5 +74,8 @@ def api_alerts():
     return jsonify({"alerts": alerts})
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(debug=True, port=port)
+    from os import getenv
+    port = int(getenv("PORT", 5000))  # Railway will override this
+    app.run(host="0.0.0.0", port=port)
+
+
